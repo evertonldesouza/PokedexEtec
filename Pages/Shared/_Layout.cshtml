@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="">
+    <meta name="author" content="Everton L. de Souza">
+    <title>Pokedex</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" />
+
+    <link rel="apple-touch-icon" href="~/img/favicons/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" href="~/img/favicons/favicon-32x32.png" sizes="32x32" type="imagem/png">
+    <link rel="icon" href="~/img/favicons/favicon-16x16.png" sizes="16x16" type="imagem/png">
+    <link rel="icon" href="~/img/favicons/favicon.ico">
+
+    <link href="~/css/site.css" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div class="collapse bg-danger" id="navbarHeader">
+            <div class="container">
+                <div class="row">
+                    <div>
+                        <h4 class="text-white">Sobre</h4>
+                        <p class="text-white">
+                            Projeto feito para entendimento da criação de páginas Web com RazorPages e .NET.
+                            Inclui leitura e desserialização de arquivos Json, inclusão e recuperação de dados em sessão e tambem criação de páginas dinâmicas.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar navbar-dark bg-danger shadow-sm">
+            <div class="container">
+                <a asp-page="Index" class="navbar-brand d-flex align-items-center">
+                    <img src="~/img/favicons/favicon-32x32.png" alt="Pokedex" class="me-2">&nbsp;
+                    <strong>Pokedex Etec</strong>
+                </a>
+                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarHeader"
+                        aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        @RenderBody()
+    </main>
+
+    <footer class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p class="mb-0">Desenvolvido nas aulas de Programação Web II </p>
+                </div>
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+                        <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
