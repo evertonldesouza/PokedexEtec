@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MXnmI/9EIGnzZRCE2P5BLtuULP6RHsuwEmaUNYy8bM2ClXD75ifApAgYCo5E/H09ayYPShZSrcGRNdQmEvoivQ==",
+  "dgSpecHash": "kcvhQ/tdxYsuYLYl9FXwxTyms3A+Yf4jEbFgeDot+SrnqgB29CnLHw0XzZz0m6v6WV1j2HZPJ2tj75RDMB45GQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\everton.souza\\source\\Pokedex\\Pokedex-main\\Pokedex.csproj",
+  "projectFilePath": "D:\\github\\PokedexEtec\\Pokedex.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\everton.souza\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\5.0.8\\microsoft.aspnetcore.mvc.razor.extensions.5.0.8.nupkg.sha512",
     "C:\\Users\\everton.souza\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\5.0.8\\microsoft.aspnetcore.mvc.razor.runtimecompilation.5.0.8.nupkg.sha512",

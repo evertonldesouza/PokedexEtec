@@ -743,11 +743,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\everton.souza\\source\\Pokedex\\Pokedex-main\\Pokedex.csproj",
+      "projectUniqueName": "D:\\github\\PokedexEtec\\Pokedex.csproj",
       "projectName": "PokedexEtec",
-      "projectPath": "C:\\Users\\everton.souza\\source\\Pokedex\\Pokedex-main\\Pokedex.csproj",
+      "projectPath": "D:\\github\\PokedexEtec\\Pokedex.csproj",
       "packagesPath": "C:\\Users\\everton.souza\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\everton.souza\\source\\Pokedex\\Pokedex-main\\obj\\",
+      "outputPath": "D:\\github\\PokedexEtec\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
